@@ -12,21 +12,8 @@ main, aside, footer{
     width: 80%;
     background-color: rgba(0,0,0,0.75);
     color: white;
-}
+}    
 
-header{
-    background-color: rgba(0, 0, 0, 0.76);
-}
-
-a{
-    text-decoration: none;
-    color: white !important;
-    font-size: larger !important;
-}
-h1{
-    text-align: center;
-    
-}
 p{
     padding: 50px;
     display: flex;
@@ -34,29 +21,12 @@ p{
     font-weight: bold;
     font-size: 20px;
 }
-div{
-    padding: 20px;
-}
+
 iframe{
     display: block;
     margin: 0 auto;
     border-radius: 25px;
 }
-.navbar{
-    font-family: 'Akaya Telivigala', cursive;
-    color: white;
+aside{
+    padding: 25px !important;
 }
-.logo{
-    font-size: 30px !important;
-    display: inline-block;
-    margin: -15px  !important;
-    margin-left: 20px !important;
-}
-.dotcom{
-    display: block;
-    padding-left: 175px !important;
-    margin-top: -15px !important;
-    font-size: 25px !important;
-}
-
-
