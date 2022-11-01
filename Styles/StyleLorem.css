@@ -3,8 +3,8 @@ body{
     flex-wrap: wrap;
     margin: auto;
     font-family: 'Montserrat', sans-serif !important;
-    background-image: url(../Media/Images/l.png);
-    background-size: 50px;
+    background-image: url(../Media/Images/l.png) !important;
+    background-size: 50px !important;
 }
 main, aside, footer{
     border-radius: 25px;

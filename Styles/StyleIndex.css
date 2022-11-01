@@ -1,0 +1,11 @@
+section{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.content{
+    color: white;
+    margin-top: 500px !important;
+}
+.lead{
+    font-weight: 400 !important;
+}

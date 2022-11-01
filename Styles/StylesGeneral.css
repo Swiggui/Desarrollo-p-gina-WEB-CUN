@@ -1,5 +1,10 @@
+body{
+    background-image: url("https://images4.alphacoders.com/292/292026.jpg");
+    background-size: cover;
+}
+
 header{
-    background-color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(0, 0, 0, 0.26);
 }
 a{
     text-decoration: none;
@@ -13,7 +18,7 @@ h1{
 div{
     padding: 10px;
 }
-.navbar{
+.navbar, .modal-title{
     font-family: 'Akaya Telivigala', cursive;
     color: white;
 }
@@ -28,4 +33,14 @@ div{
     padding-left: 175px !important;
     margin-top: -15px !important;
     font-size: 25px !important;
+}
+
+.modal-content{
+    background-color: rgba(4, 214, 214, 0.6) !important;
+}
+.modal-header, .modal-footer{
+    border: none !important;
+}
+.modal{
+    --bs-modal-width: 900px !important;
 }
