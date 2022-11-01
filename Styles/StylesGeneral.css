@@ -6,7 +6,7 @@ body{
 header{
     background-color: rgba(0, 0, 0, 0.26);
 }
-a, h1{
+a, h1, p{
     text-decoration: none;
     color: white !important;
     font-size: larger !important;
@@ -17,8 +17,8 @@ h1{
 div{
     padding: 10px;
 }
-.navbar, .modal-title{
-    font-family: 'Akaya Telivigala', cursive;
+.navbar, .modal-title, .btn{
+    font-family: 'Akaya Telivigala', cursive !important;
     color: white;
 }
 .logo{
@@ -48,4 +48,10 @@ div{
 }
 .modal{
     --bs-modal-width: 900px !important;
+}
+
+.modal-content .btn{
+    min-height: 60px;
+    background-color: rgba(255, 255, 255, 0.616);
+    font-weight: 500;
 }
