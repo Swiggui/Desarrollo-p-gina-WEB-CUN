@@ -49,14 +49,18 @@
       </div>
     </nav>
   </header>
-  <div id="login" class="modal" tabindex="-1">
+  <div id="login" class="modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="Login">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title p">Ingresar</h2>
+      <div class="modal-content">        
+        <div class="modal-header d-flex">
+          <h1 class="logo w-100">
+            <a class="navbar-brand fw-bold modal-title" href="/index.html">W31rd W3bs1t3</a>
+            <a class="navbar-brand fw-bold modal-title dotcom" href="/index.html">.com</a>
+          </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body px-5">
+          <h2 class="modal-title">Ingresar</h2>
           <div class="form-floating mb-3">
             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Usuario</label>
@@ -67,8 +71,12 @@
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="col d-flex">
+            <button type="button" class="mx-auto w-75 btn btn-secondary" data-bs-dismiss="modal">Login</button>
+          </div>
+          <div class="col d-flex">
+            <button type="button" class="mx-auto w-75 btn btn-primary">Crear Cuenta</button>
+          </div>
         </div>
       </div>
     </div>

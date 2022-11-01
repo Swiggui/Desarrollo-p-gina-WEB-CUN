@@ -35,13 +35,46 @@
                     <a class="nav-link" href="/aboutUs.html">Sobre Nosotros</a>
                   </li>
                   <li class="nav-item">
-                      <a class="btn btn-primary" href="login.html">Ingresar</a>
+                    <button type="button" class="btn btn-primary w-100 px-5 py-2" data-bs-toggle="modal"
+                    data-bs-target="#login">Ingresar</button>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
+    <div id="login" class="modal fade" tabindex="-1" aria-hidden="true" aria-labelledby="Login">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">        
+          <div class="modal-header d-flex">
+            <h1 class="logo w-100">
+              <a class="navbar-brand fw-bold modal-title" href="/index.html">W31rd W3bs1t3</a>
+              <a class="navbar-brand fw-bold modal-title dotcom" href="/index.html">.com</a>
+            </h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body px-5">
+            <h2 class="modal-title">Ingresar</h2>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Usuario</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+              <label for="floatingPassword">Contraseña</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <div class="col d-flex">
+              <button type="button" class="mx-auto w-75 btn btn-secondary" data-bs-dismiss="modal">Login</button>
+            </div>
+            <div class="col d-flex">
+              <button type="button" class="mx-auto w-75 btn btn-primary">Crear Cuenta</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <main>
         <aside><h1>Lorem Ipsum</h1></aside>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quos officia aliquam placeat at corporis incidunt animi velit deserunt. Earum totam consectetur vitae sapiente est repellat aliquam ipsum dolore odio.</p>
