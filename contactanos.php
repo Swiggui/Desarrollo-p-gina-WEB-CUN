@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/Styles/StylesGeneral.css">
-  <link rel="stylesheet" href="/Styles/StylesGeneralPagesWithContent.css">
+  <link rel="stylesheet" href="./Styles/StylesGeneral.css">
+  <link rel="stylesheet" href="./Styles/StylesGeneralPagesWithContent.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@100;400&display=swap"
@@ -21,8 +21,8 @@
     <nav class="navbar navbar-expand-lg bg-transparent w-100">
       <div class="container-fluid">
         <h1 class="logo">
-          <a class="navbar-brand fw-bold" href="/index.html">W31rd W3bs1t3</a>
-          <a class="navbar-brand fw-bold dotcom" href="/index.html">.com</a>
+          <a class="navbar-brand fw-bold" href="./index.php">W31rd W3bs1t3</a>
+          <a class="navbar-brand fw-bold dotcom" href="./index.php">.com</a>
         </h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,13 +31,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item d-flex">
-              <a class="nav-link align-self-center" aria-current="page" href="/index.html">Inicio</a>
+              <a class="nav-link align-self-center" aria-current="page" href="./index.php">Inicio</a>
             </li>
             <li class="nav-item align-self-center">
-              <a class="nav-link" href="/lorem.html">Lorem Ipsum</a>
+              <a class="nav-link" href="./lorem.php">Lorem Ipsum</a>
             </li>
             <li class="nav-item align-self-center">
-              <a class="nav-link" href="/aboutUs.html">Sobre Nosotros</a>
+              <a class="nav-link" href="./aboutUs.php">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
               <button type="button" class="btn btn-primary w-100 px-5 py-2" data-bs-toggle="modal"
@@ -53,8 +53,8 @@
       <div class="modal-content">
         <div class="modal-header d-flex">
           <h1 class="logo w-100">
-            <a class="navbar-brand fw-bold modal-title" href="/index.html">W31rd W3bs1t3</a>
-            <a class="navbar-brand fw-bold modal-title dotcom" href="/index.html">.com</a>
+            <a class="navbar-brand fw-bold modal-title" href="./index.php">W31rd W3bs1t3</a>
+            <a class="navbar-brand fw-bold modal-title dotcom" href="./index.php">.com</a>
           </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -89,8 +89,8 @@
       <div class="modal-content">
         <div class="modal-header d-flex">
           <h1 class="logo w-100">
-            <a class="navbar-brand fw-bold modal-title" href="/index.html">W31rd W3bs1t3</a>
-            <a class="navbar-brand fw-bold modal-title dotcom" href="/index.html">.com</a>
+            <a class="navbar-brand fw-bold modal-title" href="./index.php">W31rd W3bs1t3</a>
+            <a class="navbar-brand fw-bold modal-title dotcom" href="./index.php">.com</a>
           </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
