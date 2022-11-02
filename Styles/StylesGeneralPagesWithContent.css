@@ -6,11 +6,15 @@
 h2{
     color: white;
     font-size: 50px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 10px !important;
 }
 
 img{
     max-width: 100%;
+}
+form div{
+    margin: 0 auto;
+    width: 80% !important;
 }
 .git{
     background-color: rgba(255, 255, 255, 0.103) !important;
