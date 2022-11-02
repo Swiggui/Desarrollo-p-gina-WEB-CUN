@@ -60,18 +60,21 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body px-5">
-          <form action="" method="post">
+          <form name="loging" action="" method="post">
             <h2 class="modal-title">Ingresar</h2>
             <div class="form-floating mb-3">
-              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+              <input type="email" class="form-control" id="user" name="user" placeholder="Usuario" required>
               <label for="floatingInput">Usuario</label>
             </div>
             <div class="form-floating">
-              <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+              <input type="password" class="form-control" id="password" name="password" placeholder="Contraseña" required>
               <label for="floatingPassword">Contraseña</label>
             </div>
         </div>
         </form>
+        <?php
+          echo "Hola";
+        ?>
         <div class="modal-footer">
           <div class="col d-flex">
             <button type="submit" class="mx-auto w-75 btn btn-outline-primary">¡Ingresa, y
@@ -156,16 +159,16 @@
     <?php
       echo "kiolas";
     ?>
-    
+
   </section>
   <footer>
     <p class="position-absolute bottom-0 end-0 me-2 fs-6">&copy; 2022 Figuisama (Juan Camilo Figueredo montaña)</p>
   </footer>
-  
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
