@@ -1,3 +1,6 @@
+*{
+    box-sizing: border -box;
+}
 body{
     background-image: url("https://images2.alphacoders.com/555/555684.jpg");
     background-size: cover;
@@ -53,8 +56,11 @@ div{
     --bs-modal-width: 900px !important;
 }
 
+.modal-content .btn, .sub:not(:hover){
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .modal-content .btn{
     min-height: 60px;
-    background-color: rgba(255, 255, 255, 0.5);
     font-weight: 500;
 }
