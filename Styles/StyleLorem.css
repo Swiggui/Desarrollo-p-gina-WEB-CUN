@@ -5,9 +5,10 @@ body{
     font-family: 'Montserrat', sans-serif !important;
     background-image: url(../Media/Images/l.png) !important;
     background-size: 50px !important;
+    background-repeat: repeat !important;
 }
 main, aside, footer{
-    border-radius: 25px;
+    border-radius: 10px;
     margin: 15px auto;
     width: 80%;
     background-color: rgba(0,0,0,0.75);
