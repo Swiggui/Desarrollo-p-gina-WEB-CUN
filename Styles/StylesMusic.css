@@ -14,3 +14,7 @@
     background-color: initial;
     min-height: initial;
 }
+.music-element .btn{
+    width: 50px !important;
+    height: 38px !important;
+}
