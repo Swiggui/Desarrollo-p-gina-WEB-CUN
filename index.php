@@ -54,8 +54,8 @@
       <div class="modal-content">
         <div class="modal-header d-flex">
           <h1 class="logo w-100">
-            <a class="navbar-brand fw-bold modal-title" href="/index.php">W31rd W3bs1t3</a>
-            <a class="navbar-brand fw-bold modal-title dotcom" href="/index.php">.com</a>
+            <a class="navbar-brand fw-bold modal-title" href="./index.php">W31rd W3bs1t3</a>
+            <a class="navbar-brand fw-bold modal-title dotcom" href="./index.php">.com</a>
           </h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
@@ -72,9 +72,6 @@
             </div>
         </div>
         </form>
-        <?php
-          echo "Hola";
-        ?>
         <div class="modal-footer">
           <div class="col d-flex">
             <button type="submit" class="mx-auto w-75 btn btn-outline-primary">¡Ingresa, y
@@ -156,9 +153,6 @@
         </div>
       </div>
     </div>
-    <?php
-      echo "kiolas";
-    ?>
 
   </section>
   <footer>
